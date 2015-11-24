@@ -30,6 +30,7 @@
 		E03D347F1C03158F004F855F /* Monkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03D347D1C03158F004F855F /* Monkey.swift */; };
 		E03D34801C03158F004F855F /* SilliestMonkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03D347E1C03158F004F855F /* SilliestMonkey.swift */; };
 		E03D34821C03159F004F855F /* SilliestMonkeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03D34811C03159F004F855F /* SilliestMonkeyTests.swift */; };
+		E03D34841C03FECD004F855F /* BananaViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03D34831C03FECD004F855F /* BananaViewControllerSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		E03D347D1C03158F004F855F /* Monkey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monkey.swift; sourceTree = "<group>"; };
 		E03D347E1C03158F004F855F /* SilliestMonkey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SilliestMonkey.swift; sourceTree = "<group>"; };
 		E03D34811C03159F004F855F /* SilliestMonkeyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SilliestMonkeyTests.swift; sourceTree = "<group>"; };
+		E03D34831C03FECD004F855F /* BananaViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BananaViewControllerSpec.swift; sourceTree = "<group>"; };
 		E39DBA4057658EF657C8B466 /* Pods-UseQuickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UseQuickTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UseQuickTests/Pods-UseQuickTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,6 +187,7 @@
 				B5AB4D751C035E99007D37FE /* MackerelSpec.swift */,
 				B5AB4D761C035E99007D37FE /* CodSpec.swift */,
 				B5AB4D7A1C035EB9007D37FE /* EdibleSharedExamplesConfiguration.swift */,
+				E03D34831C03FECD004F855F /* BananaViewControllerSpec.swift */,
 				E03D33CB1C02C572004F855F /* Info.plist */,
 			);
 			path = UseQuickTests;
@@ -432,6 +435,7 @@
 				B5AB4D781C035E99007D37FE /* MackerelSpec.swift in Sources */,
 				E03D34781C030A44004F855F /* BananaTests.swift in Sources */,
 				E03D347A1C030BD4004F855F /* OfferTests.swift in Sources */,
+				E03D34841C03FECD004F855F /* BananaViewControllerSpec.swift in Sources */,
 				B5AB4D771C035E99007D37FE /* DolphinSpec.swift in Sources */,
 				E03D33CA1C02C572004F855F /* UseQuickTests.swift in Sources */,
 				B5AB4D7B1C035EB9007D37FE /* EdibleSharedExamplesConfiguration.swift in Sources */,

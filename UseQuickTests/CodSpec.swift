@@ -24,9 +24,9 @@ class CodSpec: QuickSpec {
             cod = Cod()
         }
         
-        itBehavesLike("something edible") { () -> (NSDictionary) in
-            
-            ["edible" : cod]
-        }
+//        itBehavesLike("something edible") { () -> (NSDictionary) in
+//            
+//            ["edible" : cod]
+//        }
     }
 }

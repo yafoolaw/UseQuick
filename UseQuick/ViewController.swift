@@ -11,14 +11,38 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+public class ViewController: UIViewController {
+    
+    public var bananaCountLabel : UILabel!
+    public var button           : UIButton!
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        bananaCountLabel = UILabel(frame: CGRect(x: 100, y: 100, width: 100, height: 40))
+        view.addSubview(bananaCountLabel!)
+        
+        bananaCountLabel.text            = "0"
+        bananaCountLabel.backgroundColor = UIColor.orangeColor()
+        
+        button = UIButton(type: .Custom)
+        view.addSubview(button)
+        
+        button.frame           = CGRect(x: 100, y: 200, width: 100, height: 40)
+        button.backgroundColor = UIColor.blackColor()
+        button.setTitle("Button", forState: .Normal)
+        button.addTarget(self, action: "buttonAction", forControlEvents: .TouchUpInside)
+        
+    }
+    
+    func buttonAction() {
+    
+        let bananaCount = Int(bananaCountLabel.text!)
+        bananaCountLabel.text = String(bananaCount! + 1)
     }
 
-    override func didReceiveMemoryWarning() {
+    override public func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
