@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A67A1F2106CE0379E8DF85C3 /* Pods_UseQuickUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60D8C53AF04B3E5737A72A7 /* Pods_UseQuickUITests.framework */; };
+		B51B4EB71C0C88EB00B69129 /* EventDescriptionFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51B4EB61C0C88EB00B69129 /* EventDescriptionFormatter.swift */; };
+		B51B4EBB1C0C897B00B69129 /* EventProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51B4EBA1C0C897B00B69129 /* EventProtocol.swift */; };
+		B51B4EBF1C0C8F1D00B69129 /* EventDescriptionFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51B4EBE1C0C8F1D00B69129 /* EventDescriptionFormatterSpec.swift */; };
 		B5AB4D711C035E5E007D37FE /* Dolphin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB4D6E1C035E5E007D37FE /* Dolphin.swift */; };
 		B5AB4D721C035E5E007D37FE /* Mackerel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB4D6F1C035E5E007D37FE /* Mackerel.swift */; };
 		B5AB4D731C035E5E007D37FE /* Cod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB4D701C035E5E007D37FE /* Cod.swift */; };
@@ -54,6 +57,9 @@
 		08C8ACB482FD622501F9AB1A /* Pods-UseQuickUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UseQuickUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UseQuickUITests/Pods-UseQuickUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		55AF5345879D400CF8A65C57 /* Pods-UseQuickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UseQuickTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UseQuickTests/Pods-UseQuickTests.release.xcconfig"; sourceTree = "<group>"; };
 		AA7FA743D2CFAFAF2654E602 /* Pods-UseQuickUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UseQuickUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UseQuickUITests/Pods-UseQuickUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B51B4EB61C0C88EB00B69129 /* EventDescriptionFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDescriptionFormatter.swift; sourceTree = "<group>"; };
+		B51B4EBA1C0C897B00B69129 /* EventProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventProtocol.swift; sourceTree = "<group>"; };
+		B51B4EBE1C0C8F1D00B69129 /* EventDescriptionFormatterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDescriptionFormatterSpec.swift; sourceTree = "<group>"; };
 		B5AB4D6E1C035E5E007D37FE /* Dolphin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dolphin.swift; sourceTree = "<group>"; };
 		B5AB4D6F1C035E5E007D37FE /* Mackerel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mackerel.swift; sourceTree = "<group>"; };
 		B5AB4D701C035E5E007D37FE /* Cod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cod.swift; sourceTree = "<group>"; };
@@ -168,6 +174,8 @@
 				B5AB4D6E1C035E5E007D37FE /* Dolphin.swift */,
 				B5AB4D6F1C035E5E007D37FE /* Mackerel.swift */,
 				B5AB4D701C035E5E007D37FE /* Cod.swift */,
+				B51B4EBA1C0C897B00B69129 /* EventProtocol.swift */,
+				B51B4EB61C0C88EB00B69129 /* EventDescriptionFormatter.swift */,
 				E03D33B81C02C571004F855F /* Main.storyboard */,
 				E03D33BB1C02C571004F855F /* Assets.xcassets */,
 				E03D33BD1C02C571004F855F /* LaunchScreen.storyboard */,
@@ -188,6 +196,7 @@
 				B5AB4D761C035E99007D37FE /* CodSpec.swift */,
 				B5AB4D7A1C035EB9007D37FE /* EdibleSharedExamplesConfiguration.swift */,
 				E03D34831C03FECD004F855F /* BananaViewControllerSpec.swift */,
+				B51B4EBE1C0C8F1D00B69129 /* EventDescriptionFormatterSpec.swift */,
 				E03D33CB1C02C572004F855F /* Info.plist */,
 			);
 			path = UseQuickTests;
@@ -416,9 +425,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B51B4EB71C0C88EB00B69129 /* EventDescriptionFormatter.swift in Sources */,
 				E03D347C1C030BDA004F855F /* Offer.swift in Sources */,
 				E03D33B71C02C571004F855F /* ViewController.swift in Sources */,
 				E03D34761C030A38004F855F /* Banana.swift in Sources */,
+				B51B4EBB1C0C897B00B69129 /* EventProtocol.swift in Sources */,
 				E03D34801C03158F004F855F /* SilliestMonkey.swift in Sources */,
 				E03D33B51C02C571004F855F /* AppDelegate.swift in Sources */,
 				B5AB4D721C035E5E007D37FE /* Mackerel.swift in Sources */,
@@ -433,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5AB4D781C035E99007D37FE /* MackerelSpec.swift in Sources */,
+				B51B4EBF1C0C8F1D00B69129 /* EventDescriptionFormatterSpec.swift in Sources */,
 				E03D34781C030A44004F855F /* BananaTests.swift in Sources */,
 				E03D347A1C030BD4004F855F /* OfferTests.swift in Sources */,
 				E03D34841C03FECD004F855F /* BananaViewControllerSpec.swift in Sources */,
